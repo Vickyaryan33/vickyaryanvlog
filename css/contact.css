@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contact-content{
+background: linear-gradient(to right, rgba(30,87,153,0) 0%,rgba(30,87,153,0.2) 14%,rgba(30,87,153,0.2) 15%,rgba(30,87,153,0.2) 16%,rgba(30,87,153,0) 19%,rgba(30,87,153,0) 20%,rgba(31,90,157,0) 22%,rgba(32,93,161,0) 24%,rgba(33,98,168,0) 27%,rgba(41,137,216,0) 49%,rgba(36,116,190,0) 70%,rgba(34,106,177,0) 80%,rgba(32,98,167,0.2) 88%,rgba(30,87,153,0.02) 99%,rgba(30,87,153,0) 100%);
+display: flex;
+height: 80vh;
+position: relative;
+overflow: hidden;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+overflow: hidden;
+}
+.form-box input ,textarea {
+    width: 50vw;
+    height: auto;
+    padding: 15px 12px;
+    margin: 7px 0px;
+    border-radius: 9px solid rgb(68, 30, 30);
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+  
+ }
+ .form-box1 input {
+    width: 30vw;
+    height: auto;
+    padding: 15px 12px;
+    margin: 7px 0px;
+    border-radius: 9px solid rgb(68, 30, 30);
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+  
+ }
+ .form-box1 span{
+    color: brown;
+   font-weight: bolder;
+   margin: 7px 20px;
+ }
+.contact-footer {
+    height: 5vh;
+    background: linear-gradient(to right, rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(56,56,56,1) 60%,rgba(56,56,56,1) 60%,rgba(78,78,78,1) 76%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .contact-footer p{
+    color: rgb(240, 235, 235);
+  }
+ /* .form-box{
+    
+ } */
+
+  

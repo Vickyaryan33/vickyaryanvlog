@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&family=Roboto:ital,wght@0,100;1,300&display=swap");
+
+:root {
+  
+    --blue: #ae47c1;
+    --white: #ffffff;
+  --font1:'Libre Franklin', sans-serif;
+  --font2:'Roboto', sans-serif;
+}
+.font1{
+  font-family: var(--font1);
+}
+.font2{
+  font-family: var(--font2);
+}
+.max-width-1 {
+  max-width: 80vw;
+}
+.max-width-2 {
+  max-width: 60vw;
+}
+.m-auto {
+  margin: auto;
+  size: 50px;
+  
+}
+.my-2{
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+.btn {
+    padding: 7px 17px;
+    background: radial-gradient(ellipse at center, rgba(203,96,179,0.1) 0%,rgba(210,87,177,0.1) 35%,rgba(222,71,172,1) 100%);
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.5 ease-in-out;
+  }
+  .btn:hover{
+    color: #866767;
+    background: radial-gradient(ellipse at center, rgba(203,96,179,0.1) 0%,rgba(210,87,177,0.1) 35%,rgba(222,71,172,1) 100%);
+  }
+.form-input{
+    padding: 5px 27px;
+    font-size: 16px;
+    border: 2px solid rgb(67, 18, 18);
+    border-radius: 9px;
+     
+}
+
+
+
